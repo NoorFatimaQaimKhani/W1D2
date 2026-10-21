@@ -1,6 +1,5 @@
 from fastapi import Header, HTTPException, status
 
-# token -> username. In memory only.
 ACTIVE_TOKENS: dict[str, str] = {}
 
 

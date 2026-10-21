@@ -7,7 +7,7 @@ from schemas.auth import LoginRequest, LoginResponse, MeResponse
 
 router = APIRouter(prefix="/auth", tags=["auth"])
 
-# Synthetic users for practice purposes. The real UAM module stores Argon2id hashes, never plain passwords.
+# Synthetic users for practice purposes.
 FAKE_USERS = {"teacher01": "Password123", "admin01": "Admin12345"}
 
 
